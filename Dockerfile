@@ -8,5 +8,5 @@ VOLUME ["/usr/local/apache-activemq-5.16.1/data"]
 
 EXPOSE 61616/tcp 5672/tcp 61613/tcp 1883/tcp 61614/tcp 8161/tcp
 
-CMD ["activemq", "console"]
+CMD ["/usr/local/apache-activemq-5.16.1/bin/activemq", "console"]
 
